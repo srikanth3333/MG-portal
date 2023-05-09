@@ -120,7 +120,7 @@ function Layout({children}) {
             <ul className='nav-ul text-center'>
               {
                 navItems.map((item,index) => (
-                  <li className={activeItem === index ? `nav-ul-item active` : `nav-ul-item`} onClick={() => setActiveItem(index)}>
+                  <li key={index} className={activeItem === index ? `nav-ul-item active` : `nav-ul-item`} onClick={() => setActiveItem(index)}>
                     {item.icon}
                   </li>
                 ))
