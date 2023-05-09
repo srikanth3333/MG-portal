@@ -3,7 +3,7 @@ import React from 'react';
 import { useDispatch, useSelector } from 'react-redux';
 import {tokenLogin} from '../redux/auth/userSlice';
 import Login from "./Login";
-import Lottie from 'react-lottie';
+// import Lottie from 'react-lottie';
 import animationData from './lotie/loading.json'
 import {Layout as MainLayout} from 'antd';
 import { Button} from 'antd';
@@ -51,26 +51,7 @@ function Layout({children}) {
       return () => media.removeEventListener('change', updateTarget)
     }, [])
 
-    const defaultOptions = {
-      loop: true,
-      autoplay: true, 
-      animationData: animationData,
-      rendererSettings: {
-        preserveAspectRatio: 'xMidYMid slice'
-      }
-    };
 
-    if(loading) {
-      return (
-        <div style={{minHeight:'100vh',alignItems: 'center',justifyContent: 'center',display:'flex'}}>
-              <Lottie 
-                      options={defaultOptions}
-                      height={400}
-                      width={400}
-              />
-        </div>
-      )
-    }
 
     if(user.loggedIn == false) {
       return <Login />

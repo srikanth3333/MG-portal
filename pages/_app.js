@@ -6,7 +6,6 @@ import 'antd/dist/antd.css'
 import Layout from "../components/Layout";
 import store from '../redux/store';
 import {Provider} from 'react-redux';
-import Lottie from "lottie-react";
 import loader from "../utils/loading.json";
 import { useRouter } from "next/router";
 import 'devextreme/dist/css/dx.light.css';
