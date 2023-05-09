@@ -2,10 +2,10 @@ import React from 'react'
 import { SearchOutlined } from '@ant-design/icons'
 import { Button,Input,Checkbox } from 'antd'
 import { RxDashboard } from 'react-icons/rx';
-import { BsFilterSquareFill } from 'react-icons/Bs';
-import { AiFillSave } from 'react-icons/Ai';
-import { AiOutlineShareAlt } from 'react-icons/Ai';
-import { MdPersonSearch } from 'react-icons/Md';
+import { BsFilterSquareFill } from 'react-icons/bs';
+import { AiFillSave } from 'react-icons/ai';
+import { AiOutlineShareAlt } from 'react-icons/ai';
+import { MdPersonSearch } from 'react-icons/md';
 
 function MainCard({children}) {
 
@@ -25,7 +25,7 @@ function MainCard({children}) {
                 <div className="card-header">
                     <div className="d-flex w-100 justify-content-between align-items-center flex-wrap">
                         <h4 className="card-header-text">Default</h4>
-                        <div className="d-flex align-items-center flex-wrap">
+                        <div className="d-flex align-items-center">
                             <p className="text-white border-end pe-2">Last Profile Date: 27th, may 2020</p>
                             <Button
                                     type="text"
@@ -64,7 +64,7 @@ function MainCard({children}) {
                 </div>
                 <div className="card-body">
                     <div className="inner-header border">
-                        <div className="d-flex align-items-center flex-wrap">
+                        <div className="d-flex align-items-center">
                             <div className="d-flex border-end px-3 py-3 border-2 border-muted">
                                 <BsFilterSquareFill style={{fontSize:'30px',color:'#5668A1'}} />
                                 <Button
@@ -74,7 +74,7 @@ function MainCard({children}) {
                                     Edit Filter
                                 </Button>
                             </div>
-                            <div className="d-flex align-items-center justify-content-between w-100 px-4">
+                            <div className="d-flex align-items-center flex-wrap justify-content-between w-100 px-4">
                                 <p className=''>{`{{Total_Reload_Amount Less Than 100}}`}</p>
                                 <Input size="large" className='bg-muted' style={{width:'200px'}} placeholder="Search" prefix={<SearchOutlined />} />
                             </div>

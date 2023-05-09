@@ -8,12 +8,12 @@ import animationData from './lotie/loading.json'
 import {Layout as MainLayout} from 'antd';
 import { Button} from 'antd';
 import { RxDashboard } from "react-icons/rx";
-import { MdGroups2 } from "react-icons/Md";
-import { GoPerson } from "react-icons/Go";
-import { AiFillSave } from "react-icons/Ai";
-import { FaBook } from "react-icons/Fa";
-import { BsList } from "react-icons/Bs";
-import { MdDashboard,MdNotificationsActive } from "react-icons/Md";
+import { MdGroups2 } from "react-icons/md";
+import { GoPerson } from "react-icons/go";
+import { AiFillSave } from "react-icons/ai";
+import { FaBook } from "react-icons/fa";
+import { BsList } from "react-icons/bs";
+import { MdDashboard,MdNotificationsActive } from "react-icons/md";
 
 
 const { Header, Sider, Content } = MainLayout;
@@ -25,7 +25,7 @@ function Layout({children}) {
     const [activeSidebar, setActiveSidebar] = React.useState(true)
     const [activeItem, setActiveItem] = React.useState(0)
     const [loading, setLoading] = React.useState(true)
-    const user = useSelector((state) => state.users) 
+    // const user = useSelector((state) => state.users) 
     let dispatch = useDispatch()
 
     const updateTarget = React.useCallback((e) => {
@@ -53,9 +53,9 @@ function Layout({children}) {
 
 
 
-    if(user.loggedIn == false) {
-      return <Login />
-    }
+    // if(user.loggedIn == false) {
+    //   return <Login />
+    // }
 
   
     let navItems = [
