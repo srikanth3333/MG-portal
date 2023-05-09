@@ -1,0 +1,40 @@
+{
+  "name": "dashboard",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@ant-design/icons": "^4.8.0",
+    "@googlemaps/js-api-loader": "^1.15.1",
+    "@next/font": "13.1.1",
+    "@reduxjs/toolkit": "^1.9.1",
+    "antd": "^4.24.0",
+    "axios": "^1.2.1",
+    "bootstrap": "^5.2.3",
+    "devextreme": "^22.2.3",
+    "devextreme-react": "^22.2.3",
+    "eslint": "8.30.0",
+    "eslint-config-next": "13.1.1",
+    "formik": "^2.2.9",
+    "humanize-number": "^0.0.2",
+    "js-cookie": "^3.0.1",
+    "lottie-react": "^2.3.1",
+    "moment": "^2.29.4",
+    "next": "13.1.1",
+    "react": "18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-csv": "^2.2.2",
+    "react-debounce-input": "^3.3.0",
+    "react-dom": "18.2.0",
+    "react-icons": "^4.8.0",
+    "react-img-zoom": "^0.1.0",
+    "react-lottie": "^1.2.3",
+    "react-moment": "^1.1.2",
+    "react-redux": "^8.0.5"
+  }
+}

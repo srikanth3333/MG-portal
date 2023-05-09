@@ -1,0 +1,431 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: 'Inter', sans-serif !important;
+  background-color: #EFF2F3 !important;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.icon {
+  font-size: 25px; 
+  margin-bottom: 15px;
+}
+
+img {
+  cursor: pointer;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.color-purple {
+  color: #3A116D;
+}
+
+.color-light {
+  color: #8B98A8;
+}
+
+.color-dark {
+  color: #000;
+}
+
+h5 {
+  font-size: 1.5em;
+}
+
+ h6 {
+  font-size: 1.2em;
+ }
+
+.btn-light {
+  background-color: #8A8A8A;
+  color: #fff;
+}
+
+p {
+  margin-bottom: 0px !important;
+}
+
+
+/* layout */
+
+.login {
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.form-group {
+  margin: 0.7em 0em;  
+}
+
+.count-name {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 29px;
+  color: #000000;
+  white-space: nowrap; 
+  width: 190px; 
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.count-count {
+  font-weight: 700;
+  font-size: 20px;
+  /* line-height: 41px; */
+  color: #3A116D;
+  white-space: nowrap; 
+  /* width: 190px;  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.count-count-percent {
+  font-weight: 700;
+  font-size: 17px;
+  /* line-height: 41px; */
+  color: #3A116D;
+  white-space: nowrap; 
+  /* width: 190px;  */
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.px-login {
+  padding: 0em 7em;
+}
+ 
+
+
+.count-icon {
+  font-size: 2.5em;
+  color: #F7C514 !important;
+}
+
+.filter-card-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 29px;
+  color: #000000;
+  font-weight: 600;
+}
+
+label {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  margin: 0.3em 0em;
+}
+
+
+.ant-btn-primary {
+  background-color: #3A116D !important;
+  border-color: #3A116D !important;
+}
+
+.antd-table-custom-class thead th, .antd-table-custom-class tbody td {
+  white-space:pre-wrap;
+  text-overflow: ellipsis
+}
+
+
+.box-card {
+  box-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+  border-radius: 10px;
+  padding: 0.9em 0.4em;
+  height: 140px;
+}
+
+.color-yellow {
+  background: #F7C514 !important;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #000;
+}
+
+.box-card-title {
+  color: #FEFEFE;
+  font-weight: 700;
+  font-size: 25px;
+  text-align: center;
+  margin-bottom: 2px;
+}
+
+
+.box-card-text {
+  font-weight: 700;
+  font-size: 16px;
+  text-align: center;
+  color: #334863;
+}
+
+
+.color-grey {
+  background: #8B98A8 !important;
+}
+
+.sub-title {
+  font-size: 19px;
+  font-weight: 700;
+  color: #000000;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  font-weight: 700 !important;
+  color: #000 !important;
+}
+
+.ant-tabs-ink-bar {
+  background: #F6C514 !important;
+}
+
+.card-text-login {
+  font-weight: 400;
+  font-size: 14px;
+  color: #8B98A8;
+}
+
+.text-login {
+  font-weight: 700;
+  font-size: 42px;
+  color: #3A116D;
+  text-shadow: 0px 1px 4px rgba(0, 0, 0, 0.15);
+}
+
+.login-para {
+  font-weight: 500;
+  font-size: 15px;
+  color: #FFFFFF;
+}
+
+
+.count-card-main .card .card-body {
+  padding: 0.5em 1em;
+}
+
+.ant-form-item {
+  margin-bottom: 5px !important;
+}
+
+.ant-table {
+  font-size: 13px !important;
+}
+
+.icon-heading {
+  font-size: 15px;
+  font-weight: 500;
+}
+
+.icon-para {
+  font-size: 12px;
+}
+
+.ant-layout-header {
+  /* position: fixed; */
+  width: -webkit-fill-available;
+  height: 200px;
+  
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: 0px !important;
+}
+
+.custom-h2 {
+  font-size: 23px;
+  font-weight: 900 !important;
+  color: #082B41 !important;
+}
+
+h2 {
+  font-size: 14px;
+  color: #6c757d !important;
+}
+
+h5 {
+  font-size: 15px;
+  color: #6c757d !important;
+  margin: 1em !important;
+}
+
+
+.nav-ul {
+  list-style-type: none;
+  padding: 0px;
+}
+
+
+.nav-ul .nav-ul-item  {
+  margin-top: 30px;
+}
+
+.nav-icon {
+  font-size: 25px;
+  transition: all 0.5 ease;
+  color: #6c757d;
+}
+
+.nav-icon:hover {
+  cursor: pointer;
+}
+
+.nav-ul .active .nav-icon {
+  border-bottom: 3.2px #FF6D00 solid;
+  padding-bottom: 5px;
+}
+
+.nav-ul .active .nav-icon {
+  color: #FF6D00;
+  font-size: 33px;
+}
+
+.ant-layout-sider {
+  min-height: 100vh;
+}
+
+.header-icon {
+  margin: 8px;
+  color: #FF6D00;
+  font-size: 20px;
+}
+
+.text-muted {
+  color: #6c757d;
+}
+
+
+.text-white {
+  color: #fff;
+  font-size: 12px;
+  width: 100%;
+}
+
+
+
+/* card */
+
+
+.card {
+  border-radius: 0;
+}
+
+.card-header, .card-header:first-child {
+  background-color: #5668A1;
+  border-radius: 0;
+}
+
+.card-header-text {
+  font-size: 17px;
+  color: #fff;
+}
+
+.mainCard-icon {
+  font-size: 15px;
+}
+
+
+.main-card .ant-btn {
+  padding: 4px 5px;
+}
+
+.ant-btn-primary {
+  background-color: #FF6D00 !important;
+  border: 0 !important;
+  border-radius: 5px !important;
+  font-weight: 500 !important;
+  font-size: 12px !important;
+}
+
+.card .card-body {
+  padding: 0;
+}
+
+.card .main-content-header-text {
+  cursor: pointer;
+  
+  /* padding: 10px 10px;
+  margin: 0px 10px; */
+}
+
+.card .main-content-header .active {
+  border-bottom: 4px solid #FF6D00;
+  color: #FF6D00;
+}
+
+.card .main-content-header .active .content-text {
+  color: #FF6D00;
+}
+
+.content-text {
+  font-size: 17px;
+  color: #979797;
+}
+
+/* .main-content-header-text {
+  position: relative;
+  border-top: 2px solid black;
+  padding-top: 10px;
+  text-align: center;
+}
+
+.main-content-header-text::before {
+  content: "";
+  position: absolute;
+  top: -12px;
+  left: 50%;
+  transform: translateX(-50%) rotate(45deg);
+  width: 20px;
+  height: 20px;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  background-color: white;
+} */
+
+.sub-view {
+  background-color: #EFF1F8;
+}
+
+.mp-h1 {
+  font-size: 17px;
+  font-weight: 500;
+}
+
+.color-orange {
+  color: #FF6D00;
+}
+
+/* sidebar */
+
+.sidebar-antd, .header-antd{
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.5);
+  position: relative;
+}
+
+.shadow-fix {
+  height: 64px;
+  width: 20px;
+  background-color: #fff;
+  position: absolute;
+  top: 0px;
+  left: -10px;
+  z-index: 100;
+}
